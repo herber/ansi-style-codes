@@ -1,0 +1,42 @@
+{
+	"name": "ansi-style-codes",
+	"version": "1.0.0",
+	"description": "A list of ansi style codes",
+	"license": "MIT",
+	"repository": "herber/ansi-style-codes",
+	"author": {
+		"name": "Tobias Herber",
+		"email": "tobihrbr@gmail.com",
+		"url": "tobihrbr.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "formatted && jest"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"color",
+		"cli",
+		"ansi",
+		"styles",
+		"escape"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"coveralls": "^3.0.0",
+		"formatted": "^1.0.0",
+		"jest": "^22.1.4"
+	},
+	"jest": {
+		"collectCoverage": true,
+		"coverageDirectory": "./coverage",
+		"coverageReporters": [
+			"lcov",
+			"text"
+		]
+	}
+}
